@@ -107,7 +107,16 @@
 			'seven'
 			'eight';
 
-		@media (width >960px) {
+		@media (width > 660px) {
+			grid-template-areas:
+				'one one'
+				'two three'
+				'four six'
+				'four seven'
+				'five eight';
+		}
+
+		@media (width > 960px) {
 			grid-template-areas:
 				'seven one one four'
 				'seven two three four'
